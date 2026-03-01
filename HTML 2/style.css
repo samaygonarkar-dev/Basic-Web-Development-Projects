@@ -1,0 +1,91 @@
+/* General page setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #f9f9f9, #e6f2ff);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header section */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Section headings */
+h2 {
+    color: #1a5276;
+    margin-top: 30px;
+    border-left: 5px solid #1abc9c;
+    padding-left: 10px;
+    background-color: #f0f8ff;
+    display: inline-block;
+}
+
+/* Skills and project lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+li {
+    background: #ffffff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #16a085;
+    text-decoration: underline;
+}
+
+/* YouTube videos */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Contact section */
+hr {
+    margin: 40px 0;
+    border: 1px solid #ccc;
+}
+
+p a {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #c0392b;
+}
+
+/* Page container */
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
